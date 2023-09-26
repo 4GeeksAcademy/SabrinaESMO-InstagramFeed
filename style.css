@@ -1,0 +1,51 @@
+
+body{
+    background: rgb(218, 249, 250);
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background: white;
+    padding: 15px;
+}
+
+header h1{
+    margin: 0;
+}
+
+div.post{
+    background: white;
+    margin-top: 20px;
+}
+
+div.post img{
+    width: 100%;
+}
+
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 90%;
+    margin-left: 5px;
+}
+
+div.post .post-header div:last-child{
+    color: grey;
+    display: inline;
+    width: 10%;
+    text-align: right;
+}
+
+div.post h2, div.post p{
+    padding: 5px;
+    margin: 0;
+}
+
+div.container{
+    width: 600px;
+    margin: auto;
+}
+
+div.post p{
+    padding: 10px;
+}
